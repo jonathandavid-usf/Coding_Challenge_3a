@@ -10,5 +10,6 @@ customers.shift()
 customers[1].email = "Kobe24@bryant.com"
 customers[1].purchases.push("basketball shorts")
 customers.forEach(customer => {console.log('name: ' + customer.name + ', email: ' + customer.email + ', purchases: ' + customer.purchases)})
-
+customers[2].purchases.push("hair line ascender")
+console.log(customers)
 
