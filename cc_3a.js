@@ -1,8 +1,6 @@
-let customers = [
-    { name: "Lebron James", email: "Lebron@james.com", purchases: ["headband"] },
+let customers = [{ name: "Lebron James", email: "Lebron@james.com", purchases: ["headband"] },
     { name: "Michael Jordan", email: "Michael@jordan.com", purchases: ["basketball shoes"] },
-    { name: "Kobe Bryant", email: "Kobe@bryant.com", purchases: ["helicopter tickets"] }
-]
+    { name: "Kobe Bryant", email: "Kobe@bryant.com", purchases: ["helicopter tickets"] }]
 console.log(customers)
 customers.push({ name: "Kevin Durant", email: "Kevin@durant.com", purchases: ["seat cushion"] })
 console.log(customers)
